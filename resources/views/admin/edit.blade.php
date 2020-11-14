@@ -202,7 +202,7 @@
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="Cash">Image</label>
-                                <input type="file" class="form-control" placeholder="Image" name="Image">
+                                <input type="file" class="" placeholder="Image" name="Image">
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary float-right ">Send</button>

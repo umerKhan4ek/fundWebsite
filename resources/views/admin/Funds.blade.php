@@ -40,8 +40,8 @@
     <td><img src="/images/{{$fund->logo}}" alt="name" width="40"></td>
     <td>
       {{-- <i class="fa fa-pencil-square-o" aria-hidden="true"></i> --}}
-      <a href="{{route('editfund',$fund->id)}}"><i class="fa fa-edit text-success" aria-hidden="true"></i></a>
-    <a href="{{url('deletefund',$fund->id)}}"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a>
+      <a href="{{route('editfund',$fund->id)}}" class="btn btn-dark"><i class="fa fa-edit text-white" aria-hidden="true"></i></a>
+    <a href="{{url('deletefund',$fund->id)}}" class="btn btn-danger"><i class="fa fa-trash text-white" aria-hidden="true"></i></a>
 
     </tr>
     @endforeach

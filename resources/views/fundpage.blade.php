@@ -249,7 +249,7 @@
                                  </div>
                                  <div class="col-lg-9" style="border:1px solid black">
 
-                                    <img src="/images/{{$SingleFund->image}}" alt="name" style="max-width: 40%">
+                                    <img src="/images/{{$SingleFund->image}}" alt="name" style="max-width:100%;height:auto">
                                  </div>
                            </div>
                      </div>
